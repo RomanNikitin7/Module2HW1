@@ -1,10 +1,11 @@
-﻿namespace Module2HW1
+﻿namespace logger
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var starter = new Starter();
+            starter.Run();
         }
     }
 }
